@@ -13,23 +13,24 @@ body {
     min-height: 100%;
 }
 
-.wrapper{
-    background: url(../img/body__background.jpg)  no-repeat;
-    height:1200px;
-    width:100%;
+.wrapper {
+    background: url(../img/body__background.jpg) no-repeat;
+    height: 1200px;
+    width: 100%;
 }
-.header-bg{
+
+.header-bg {
     min-height: 55px;
-    width:100%;
+    width: 100%;
     border-bottom: 1px solid #FFFFFF;
-    background:#FFFFFF ;
+    background: #FFFFFF;
 }
 
 header {
     position: relative;
-    left:50%;
+    left: 50%;
     margin-left: -480px;
-    width:960px;
+    width: 960px;
     display: block;
     padding: 0;
     min-height: 55px;
@@ -80,7 +81,7 @@ header {
 }
 
 .header__main-menu a:hover {
-    color:#181818 ;
+    color: #181818;
     height: 52px;
     text-align: center;
     border-bottom: 2px solid #181818;
@@ -93,8 +94,8 @@ header {
     color:white;
     text-align: center;  
 }*/
-.language-menu{
-    position:absolute;
+.language-menu {
+    position: absolute;
     right: 0;
     height: 55px;
     display: inline-block;
@@ -103,7 +104,7 @@ header {
     font-size: 0;
 }
 
-.language-menu__button{
+.language-menu__button {
     overflow: hidden;
     display: inline-block;
     /*   width: 48px;
@@ -131,7 +132,7 @@ header {
     vertical-align: middle;
     outline: none;
     text-align: justify;
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .language-menu__button a:hover {
@@ -139,47 +140,52 @@ header {
     height: 55px;
     text-align: center;
 }
-#language-menu__button_eng  {
+
+#language-menu__button_eng {
     color: white;
     background-color: #181818;
     height: 55px;
     text-align: center;
 }
 
-.slider{
+.slider {
     position: relative;
-    left:50%;
+    left: 50%;
     margin-left: -480px;
-    width:960px;
+    width: 960px;
     display: block;
     padding: 0;
     min-height: 462px;
 }
-.slider__arrow{
+
+.slider__arrow {
     cursor: pointer;
 }
-.slider__arrow-left{
+
+.slider__arrow-left {
     position: relative;
-    top:190px;
-    display:inline-block;
-    width:35px ;
-    height:64px;
-    background: url(../img/slider_032.png)  no-repeat;
+    top: 190px;
+    display: inline-block;
+    width: 35px;
+    height: 64px;
+    background: url(../img/slider_032.png) no-repeat;
 }
-.slider__arrow-right{
+
+.slider__arrow-right {
     position: relative;
-    top:190px;
-    left:580px;
-    display:inline-block;
-    width:35px ;
-    height:64px;
-    background: url(../img/slider_03.png)  no-repeat;
+    top: 190px;
+    left: 580px;
+    display: inline-block;
+    width: 35px;
+    height: 64px;
+    background: url(../img/slider_03.png) no-repeat;
 }
-.slider h1{
-    display:inline-block;
+
+.slider h1 {
+    display: inline-block;
     position: relative;
-    top:180px;
-    left:50%;
+    top: 180px;
+    left: 50%;
     text-decoration: none;
     text-align: center;
     height: 64px;
@@ -187,14 +193,15 @@ header {
     font-size: 48px;
     margin: 0 0 0 -330px;
     padding: 0;
-    color:white;
-    width:600px ;
+    color: white;
+    width: 600px;
     font-weight: lighter;
 }
+
 .slider__switch {
     position: relative;
-    top:330px;
-    left:50%;
+    top: 330px;
+    left: 50%;
     margin-left: -120px;
     width: 120px;
     height: 40px;
@@ -205,7 +212,7 @@ header {
 
 .slider__switch li {
     height: 24px;
-    width:24px;
+    width: 24px;
     padding: 8px;
     list-style: none;
     display: inline-block;
@@ -223,22 +230,22 @@ header {
     text-align: center;
     height: 24px;
     line-height: 24px;
-    width:24px;
-    background:  url(../img/slider_10.png)  no-repeat;
+    width: 24px;
+    background: url(../img/slider_10.png) no-repeat;
 }
 
 .slider__switch a:hover {
-    background:  url(../img/slider_12.png)  no-repeat;
+    background: url(../img/slider_12.png) no-repeat;
 }
-.slider__key{
+
+.slider__key {
     position: relative;
-    top:295px;
+    top: 295px;
     left: 715px;
     height: 40px;
     width: 150px;
     background-color: #FFFFFF;
     color: #181818;
-    font-weight: bold;
     border: none;
     font-family: 'Open Sans';
     font-weight: lighter;

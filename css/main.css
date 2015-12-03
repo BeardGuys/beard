@@ -1,0 +1,129 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+}
+
+body {
+    width: 100%;
+    height: 1200px;
+    background: url(../img/body__background.jpg) no-repeat center center fixed;
+    background-size: 100% 100%;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header {
+    margin: 0 0 0 20%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    min-height: 55px;
+
+}
+
+.header__title {
+    margin: 10px 0 0 20%;
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+}
+
+.header__title h1 {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.header__main-menu {
+    width: 280px;
+    height: 55px;
+    display: inline-block;
+    margin-left: 16%;
+    vertical-align: middle;
+    font-size: 0;
+}
+
+.header__main-menu li {
+    height: 55px;
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    outline: none;
+    text-align: justify;
+    overflow: hidden;
+}
+
+.header__main-menu a {
+    color: #FEFEFE;
+    display: block;
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    height: 55px;
+    line-height: 55px;
+}
+
+.header__main-menu a:hover {
+    color: #181818;
+    background-color: #FFFFFF;
+    height: 55px;
+    text-align: center;
+}
+
+/*.header__main-menu__elem:hover {
+    color: #181818;
+    background-color: #FFFFFF;
+    height: 55px;
+    color:white;
+    text-align: center;  
+}*/
+.language-menu {
+    display: inline-block;
+    width: 7%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 20px;
+    vertical-align: top;
+}
+
+.language-menu__button {
+    overflow: hidden;
+    display: inline-block;
+    padding: 0 3px;
+    width: 30%;
+    height: 13px;
+}
+
+.language-menu__button_ua {
+    display: block;
+    width: 20px;
+    height: 13px;
+    background: url(../img/ua.jpg);
+}
+
+.language-menu__button_eng {
+    display: block;
+    width: 20px;
+    height: 13px;
+    background: url(../img/eng.png);
+}
+
+.language-menu__button_ua:hover {
+    display: block;
+    width: 20px;
+    height: 13px;
+    background: url(../img/uah.jpg);
+}
+
+.language-menu__button_eng:hover {
+    display: block;
+    width: 20px;
+    height: 13px;
+    background: url(../img/engh.png);
+}
+

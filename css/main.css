@@ -15,6 +15,10 @@ body {
 
 .wrapper {
     background: url(../img/body__background.jpg) no-repeat;
+    -moz-background-size: 100% 1200px; /* Firefox 3.6+ */
+    -webkit-background-size: 100% 1200px; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100% 1200px; /* Opera 9.6+ */
+    background-size: 100% 1200px;
     height: 1200px;
     width: 100%;
 }
@@ -174,7 +178,7 @@ header {
 .slider__arrow-right {
     position: relative;
     top: 190px;
-    left: 580px;
+    left: 615px;
     display: inline-block;
     width: 35px;
     height: 64px;
@@ -250,5 +254,57 @@ header {
     font-family: 'Open Sans';
     font-weight: lighter;
     cursor: pointer;
+
+}
+
+.content{
+    background: url(../img/content__background.jpg) no-repeat;
+    -moz-background-size: 100% 630px; /* Firefox 3.6+ */
+    -webkit-background-size: 100% 630px; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100% 630px; /* Opera 9.6+ */
+    background-size: 100% 630px;
+    max-height: 630px;
+    height: 630px;
+    width: 100%;
+
+}
+
+.content__container{
+    position: relative;
+    left: 50%;
+    margin-left: -480px;
+    width: 960px;
+    display: block;
+    padding: 55px 0;
+    max-height: 630px;
+}
+
+.content__container__info-icon{
+    background-color: greenyellow;
+    display: inline-block;
+    width: 33%;
+    height: 200px;
+}
+
+.content__container__info-icon_first{
+
+}
+
+.content__container__info-icon_second{
+
+}
+
+.content__container__info-icon_third{
+
+}
+
+.content__container__logo{
+    background: url(../img/content_15.png) no-repeat;
+    width: 340px;
+    height: 192px;
+    position: relative;
+    left: 50%;
+    bottom: 0;
+    margin: 75px 0 0 -170px;
 
 }

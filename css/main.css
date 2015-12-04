@@ -3,7 +3,7 @@ html, body {
     height: 1200px;
     margin: 0;
     padding: 0;
-    font: normal 100% Open Sans, Helvetica, Arial, sans-serif;
+    font: normal 100% "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -49,8 +49,9 @@ header {
 
 .header__title h1 {
     color: #181818;
-    font-size: 14px;
-    font-weight: lighter;
+   /* font-size: 14px;*/
+    font-size: 1em;
+    font-weight: normal;
 }
 
 .header__main-menu {
@@ -95,7 +96,7 @@ header {
     background-color: #FFFFFF;
     height: 55px;
     color:white;
-    text-align: center;  
+    text-align: center;
 }*/
 .language-menu {
     position: absolute;
@@ -123,7 +124,7 @@ header {
     line-height: 55px;
     font-size: 12px;
     padding: 0 5px;
-    font-family:  Open Sans, Helvetica, Arial, sans-serif;
+    font-family:  "Open Sans", Helvetica, Arial, sans-serif;
     font-weight: lighter;
     cursor: pointer;
 }
@@ -171,7 +172,7 @@ header {
     display: inline-block;
     width: 35px;
     height: 64px;
-    background: url(../img/slider_032.png) no-repeat;
+    background: url(../img/slider__arrow.png) -50px -5px no-repeat;
 }
 
 .slider__arrow-right {
@@ -181,7 +182,7 @@ header {
     display: inline-block;
     width: 35px;
     height: 64px;
-    background: url(../img/slider_03.png) no-repeat;
+    background: url(../img/slider__arrow.png) -5px -5px no-repeat;
 }
 
 .slider h1 {
@@ -203,7 +204,7 @@ header {
 
 .slider__switch {
     position: relative;
-    top: 330px;
+    top: 335px;
     left: 50%;
     margin-left: -120px;
     width: 120px;
@@ -234,11 +235,11 @@ header {
     height: 24px;
     line-height: 24px;
     width: 24px;
-    background: url(../img/slider_10.png) no-repeat;
+    background: url(../img/slider__switch.png) -5px -5px no-repeat;
 }
 
 .slider__switch a:hover {
-    background: url(../img/slider_12.png) no-repeat;
+    background: url(../img/slider__switch.png) -39px -5px no-repeat;
 }
 
 .slider__key {
@@ -250,7 +251,7 @@ header {
     background-color: #FFFFFF;
     color: #181818;
     border: none;
-    font-family: Open Sans, Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
     font-weight: lighter;
     cursor: pointer;
 
@@ -287,7 +288,7 @@ header {
 .content__container__info h3 {
     width: 100%;
     text-align: center;
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 .content__container__info p {
@@ -299,7 +300,7 @@ header {
 .content__container__info-icon_first {
     width: 128px;
     height: 128px;
-    background: url(../img/content_06.jpg) no-repeat;
+    background: url(../img/content__icon.png) -143px -5px no-repeat;
     position: relative;
     left: 50%;
     margin-left: -64px;
@@ -308,7 +309,7 @@ header {
 .content__container__info-icon_second {
     width: 128px;
     height: 128px;
-    background: url(../img/content_03.jpg) no-repeat;
+    background: url(../img/content__icon.png) -5px -5px no-repeat;
     position: relative;
     left: 50%;
     margin-left: -64px;
@@ -317,14 +318,14 @@ header {
 .content__container__info-icon_third {
     width: 128px;
     height: 128px;
-    background: url(../img/content_09.jpg) no-repeat;
+    background: url(../img/content__icon.png) -281px -5px no-repeat;
     position: relative;
     left: 50%;
     margin-left: -64px;
 }
 
 .content__container__logo {
-    background: url(../img/content_15.png) no-repeat;
+    background: url(../img/content__logo.png) no-repeat;
     width: 340px;
     height: 192px;
     position: relative;
@@ -336,7 +337,7 @@ header {
 
 footer {
     width: 100%;
-    height: 55px;
+    height: 60px;
     line-height: 55px;
     text-align: center;
     margin-top: -55px;

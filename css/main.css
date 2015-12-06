@@ -4,6 +4,8 @@ html, body {
     margin: 0;
     padding: 0;
     font: normal 100% "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+
 }
 
 body {
@@ -49,7 +51,7 @@ header {
 
 .header__title h1 {
     color: #181818;
-   /* font-size: 14px;*/
+    /* font-size: 14px;*/
     font-size: 1em;
     font-weight: normal;
 }
@@ -124,7 +126,7 @@ header {
     line-height: 55px;
     font-size: 12px;
     padding: 0 5px;
-    font-family:  "Open Sans", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
     font-weight: lighter;
     cursor: pointer;
 }
@@ -169,7 +171,8 @@ header {
 .slider__arrow-left {
     position: relative;
     top: 190px;
-    display: inline-block;
+    float: left;
+    /*display: inline-block;*/
     width: 35px;
     height: 64px;
     background: url(../img/slider__arrow.png) -50px -5px no-repeat;
@@ -178,8 +181,9 @@ header {
 .slider__arrow-right {
     position: relative;
     top: 190px;
-    left: 615px;
-    display: inline-block;
+    float: right;
+    /* left: 615px;
+     display: inline-block;*/
     width: 35px;
     height: 64px;
     background: url(../img/slider__arrow.png) -5px -5px no-repeat;
@@ -188,7 +192,7 @@ header {
 .slider h1 {
     display: inline-block;
     position: relative;
-    top: 180px;
+    top: 190px;
     left: 50%;
     text-decoration: none;
     text-align: center;
@@ -206,7 +210,7 @@ header {
     position: relative;
     top: 335px;
     left: 50%;
-    margin-left: -120px;
+    margin-left: -100px;
     width: 120px;
     height: 40px;
     display: block;
@@ -245,7 +249,8 @@ header {
 .slider__key {
     position: relative;
     top: 295px;
-    left: 715px;
+    float: right;
+    margin-right: 35px;
     height: 40px;
     width: 150px;
     background-color: #FFFFFF;

@@ -83,6 +83,7 @@
 }
 
 @media screen and (max-width: 650px) {
+
     html, body {
         font-size: 0.9em;
         font-stretch: ultra-condensed;

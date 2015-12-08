@@ -1,8 +1,9 @@
 @media screen and (max-width: 1000px) {
+
     header {
         left: 0;
         padding: 0 2%;
-        width: 100%;
+        width: 96%;
         display: block;
         min-height: 55px;
         margin-left: 0;
@@ -31,7 +32,7 @@
 
     .language-menu {
         padding: 0;
-        margin: 0;
+        top: 0;
         width: 10%;
         right: 4%;
     }
@@ -120,4 +121,187 @@
     .content__container__info h3 {
         font-size: 12px;
     }
+}
+
+@media screen and (max-width: 480px) {
+
+    html, body {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        font: normal 100% "Open Sans", Helvetica, Arial, sans-serif;
+        font-size: 1em;
+    }
+
+    body {
+        width: 100%;
+        height: auto;
+        min-height: 100%;
+    }
+
+    .header-bg {
+        min-height: 55px;
+        width: 100%;
+        border-bottom: 1px solid #FFFFFF;
+        background: #FFFFFF;
+    }
+    .drop-down-block {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 20%;
+        height: 55px;
+    }
+
+    .drop-down-block:hover {
+        height: 220px;
+    }
+
+    .drop-down-mobile {
+        position: relative;
+        margin: 0 0;
+        float: left;
+        left: 0;
+    }
+
+    .drop-down-mobile a {
+        position: relative;
+        height: 55px;
+        text-decoration: none;
+        line-height: 55px;
+        font-family: "Open Sans", Helvetica, Arial, sans-serif;
+        font-weight: normal;
+    }
+
+    .drop-down-mobile li {
+        position: relative;
+        height: 55px;
+    }
+
+    ul.drop-down-inside-mobile {
+        position: relative;
+        top: -999px;
+    }
+
+    ul.drop-down-mobile li.drop-down-top-mobile:hover .drop-down-inside-mobile {
+        position: relative;
+        display: block;
+        top: 0;
+        height: 165px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .header__main-menu {
+        position: absolute;
+        left: -9999px;
+    }
+
+    .header__title {
+        margin: 0;
+        display: inline-block;
+        vertical-align: top;
+        width: 60%;
+    }
+    .header__title h1 {
+        position: absolute;
+        top: 0;
+        color: #181818;
+        /* font-size: 14px;*/
+        font-size: 1em;
+        font-weight: normal;
+        text-decoration: none;
+        text-align: center;
+        height: 55px;
+        line-height: 55px;
+        padding: 0;
+        left: 50%;
+        margin: 0 0 0 -30%;
+        width: 60%;
+    }
+
+    .language-menu {
+        position: absolute;
+        height: 55px;
+        float: right;
+        width: 16%;
+    }
+
+    .slider {
+        max-height: 341px;
+    }
+
+    .slider-bg {
+        position: relative;
+        top: -20px;
+        background: url(../img/slider-background-mobile.jpg) no-repeat;
+        height: 341px;
+    }
+
+    .slider__arrow-left {
+        top: 125px;
+    }
+
+    .slider__arrow-right {
+        top: 125px;
+    }
+
+    .slider__key {
+        right: 50%;
+        width: 20%;
+        margin-right: -10%;
+        top: 280px;
+    }
+
+    .slider h1 {
+        position: absolute;
+        left: -999px;
+        top: 140px;
+        float: none;
+    }
+
+    .slider__switch {
+        position: absolute;
+        left: -999px;
+    }
+
+    .content {
+        background: url(../img/content-background-mobile.jpg) no-repeat;
+        -moz-background-size: 100% 1080px; /* Firefox 3.6+ */
+        -webkit-background-size: 100% 1080px; /* Safari 3.1+ и Chrome 4.0+ */
+        -o-background-size: 100% 1080px; /* Opera 9.6+ */
+        background-size: 100% 1080px;
+        max-height: 1080px;
+        height: 1080px;
+        top: -40px;
+    }
+
+    .content__container__info h3 {
+        font-size: 12px;
+    }
+
+    .content__container {
+        padding: 30px 0;
+        max-height: 1097px;
+    }
+
+    .content__container__info {
+
+        display: block;
+        width: 100%;
+        height: 220px;
+    }
+
+    .content__container__logo {
+        background: url(../img/content__logo.png) no-repeat;
+        width: 340px;
+        height: 192px;
+        position: relative;
+        left: 50%;
+        bottom: 0;
+        margin: 100px 0 0 -170px;
+
+    }
+
 }

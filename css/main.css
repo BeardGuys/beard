@@ -85,6 +85,14 @@ header {
     text-align: left;
 }
 
+.drop-down-top-mobile-icon{
+    width: 16px;
+    height: 12px;
+    background: url(../img/mobile-menu.jpg) no-repeat;
+    display: inline-block;
+    margin-right: 5%;
+}
+
 ul.drop-down-mobile li {
     position: relative;
 }
@@ -118,8 +126,7 @@ ul.drop-down-mobile li.drop-down-top-mobile:hover .drop-down-inside-mobile a {
 }
 
 ul.drop-down-mobile li.drop-down-top-mobile:hover .drop-down-inside-mobile a:hover {
-    color: blue;
-
+    color: #464646;
 }
 
 .header__title {
